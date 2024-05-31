@@ -89,3 +89,6 @@ MANIFEST
 /demonstrators/*.txt
 /demonstrators/*.json
 /demonstrators/*.csv
+
+
+/docs/*
