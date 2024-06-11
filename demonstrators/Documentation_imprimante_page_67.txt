@@ -1,0 +1,57 @@
+Interpréter l'état des voyants du panneau de commande
+Si l'imprimante nécessite une confirmation  de l'utilisateur , le panneau de commande à LED affiche  en alternance 
+Accéder  et un code d'état à deux chiffres.  Si l'imprimante requiert votre attention, le panneau de commande à 
+LED affiche  en alternance Er et un code d’erreur à deux chiffres.  Utilisez le tableau ci-dessous pour déterminer les 
+problèmes avec l'imprimante.
+Tableau 8-1  Légende des voyants d'état
+Symbole de voyant éteint
+Symbole de voyant allumé
+Symbole de voyant clignotant
+Tableau 8-2  Etat des voyants du panneau de commande
+Etat du voyant Code d'erreur Etat de l'imprimante Action
+Le voyant Attention 
+clignote.
+REMARQUE : Le 
+voyant 
+Consommables peut 
+être ou non dans cet 
+état selon l'état des 
+consommables.Go/01 L 'imprimante se trouve en mode 
+d'alimentation manuelle.Chargez le type et le format de papier appropriés dans 
+le bac d'entrée. Appuyez sur le bouton Lancer copie 
+ pour continuer.
+Go/02 L 'imprimante traite une tâche 
+d'impression recto verso manuelle.Chargez les pages dans le bac d'entrée pour imprimer 
+les versos. Appuyez sur le bouton Lancer copie 
+pour continuer.
+Go/03 Le type de papier ou le format de la 
+tâche d'impression est différent  de 
+celui des paramètres du bac.Chargez le format et le type de papier appropriés dans 
+le bac d'alimentation ou appuyez sur le bouton Lancer 
+copie 
+  pour continuer avec le papier chargé.
+Go/04 L 'imprimante a reçu une demande 
+d'enregistrement de cette 
+imprimante avec Google Cloud Print.Appuyez sur le bouton Lancer copie 
+  pour 
+accepter cette demande.
+Go/05 L 'imprimante a reçu une demande 
+pour se connecter à cette 
+imprimante à l'aide de Wi-Fi Direct.Entrez le code PIN sur le rapport écrit sur votre 
+périphérique mobile.
+Go/06 L 'imprimante a reçu une demande 
+pour se connecter à cette 
+imprimante à l'aide de Wi-Fi Direct.Appuyez sur le bouton Lancer copie 
+  pour vous 
+connecter.
+Go/P2 Une tâche de Copie ID a été lancée. Retournez la carte d'identité et appuyez sur le bouton 
+Copie ID pour continuer.
+Er/01 Le bac d'alimentation est vide. Chargez le bac.
+Er/02 Une porte est ouverte. Vérifiez  que le capot supérieur est correctement fermé.
+Er/03 L 'imprimante n'a pas pu entraîner 
+une feuille de papier pour 
+l'impression.Appuyez sur Lancer copie 
+  pour continuer.
+Er/04 Une feuille de papier est coincée 
+dans le bac d'alimentation.Eliminez le bourrage.
+60 Chapitre 8   Résolution des problèmes FRWW

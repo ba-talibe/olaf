@@ -26,7 +26,6 @@ coverage.xml
 cover/
 
 # Jupyter Notebook
-*.ipynb
 .ipynb_checkpoints
 
 # IPython
@@ -86,9 +85,4 @@ MANIFEST
 /demonstrators/*.owl
 /demonstrators/*.rdf
 
-/demonstrators/*.txt
 /demonstrators/*.json
-/demonstrators/*.csv
-
-
-/docs/*

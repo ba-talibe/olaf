@@ -1,0 +1,20 @@
+Punching
+Welding line
+Crescent Gap
+Water spot
+Oil spot
+Silk spot
+Inclusion
+Rolled pit
+Crease
+Waist folding
+metal surface defect
+mechanical failure
+drying
+mechanical lubricant
+temperature
+pressure
+work roll damage
+tension roll damage
+local yield
+low-carbon
