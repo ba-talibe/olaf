@@ -54,11 +54,11 @@ class Relation(DataContainer):
             external_uids=external_uids,
             linguistic_realisations=linguistic_realisations,
         )
-        self.source_concept = source_concept
+        self.source_concept = source_concept 
         self.destination_concept = destination_concept
 
     def __repr__(self) -> str:
-        return f"({self.source_concept.label}, {self.label}, {self.destination_concept.label})"
+        return f"({self.source_concept.label if self.source_concept else ""}, {self.label}, {self.destination_concept.label if self.destination_concept else ""})"
 
     def add_linguistic_realisation(
         self, linguistic_realisation: LinguisticRealisation
