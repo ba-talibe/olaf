@@ -1,0 +1,12 @@
+Selvedge Defects
+The selvedge is the edge that finishes the sides of the fabric. It is the part where the weft loops back via the shuttle. The shuttle is the tool that creates the weft. Often, the selvedge is made from a different fabric or color than the base fabric. This can help during inspections, as it makes elements easier to distinguish, but it can also be a drawback if mistakenly detected as a defect. The main selvedge defects include:
+
+Broken selvedge: Cut or torn edge
+
+Wavy selvedge (slack selvedge): Not enough tension causes fabric to wave
+
+Rolled selvedge: Selvedge is folded onto itself
+
+Over-tensioned selvedge (tight selvedge): Tension exceeds that of the fabric
+
+Scalloped selvedge: Irregular selvedge edge with small scallops

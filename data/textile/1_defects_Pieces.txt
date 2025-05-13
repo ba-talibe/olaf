@@ -1,0 +1,17 @@
+Defects or Characteristics of Fabric Pieces
+First, a piece of fabric can informally be called a "fabric segment." It is in fact a sample from a larger whole. The main defects we find are:
+
+Shade variation: The shade is "non-uniform"
+
+Non-compliant shade: The shade is not the expected one
+
+Pattern irregularity: The pattern is not regularly repeated
+
+Shrinkage defect: Excessive or insufficient shrinkage
+
+Asymmetric pattern distribution: The pattern is not identical on both halves
+
+Defective marking: Not compliant with required standards
+
+Longitudinal waviness: Piece is not straight
+

@@ -1,0 +1,20 @@
+Yarn Defects
+Yarns are a significant source of defects and must be carefully monitored. Common defects include:
+
+Localized yarn irregularities: Yarns are not even
+
+Twisting defect: Inappropriate twist for the yarn
+
+Thin yarn: Section of yarn with lower linear mass than standard
+
+Thick yarn: Section with higher linear mass than standard
+
+Slub or thick spot: Noticeable thickened section
+
+Snarl: Small twisted loop formed by a yarn
+
+Traveling yarn: Yarn winding around smaller elements
+
+Foreign yarns: Yarns differing from the main ones
+
+Soiled yarns: Abnormally colored yarns

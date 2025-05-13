@@ -1,0 +1,103 @@
+A casting defect is an undesired irregularity in a metal casting process. Some defects can be tolerated while others can be repaired, otherwise they must be eliminated. They are broken down into five main categories: gas porosity, shrinkage defects, mould material defects, pouring metal defects, and metallurgical defects.
+
+
+Terminology
+
+The terms "defect" and "discontinuity" refer to two specific and separate things in castings. Defects are defined as conditions in a casting that must be corrected or removed, or the casting must be rejected. Discontinuities, also known as "imperfections", are defined as "interruptions in the physical continuity of the casting". Therefore, if the casting is less than perfect, but still useful and in tolerance, the imperfections should be deemed "discontinuities".
+
+
+Types
+
+There are many types of defects which result from many different causes. Some of the solutions to certain defects can be the cause for another type of defect.
+
+
+The following defects can occur in sand castings. Most of these also occur in other casting processes.
+
+
+
+Shrinkage defects 
+can occur when standard feed metal is not available to compensate for shrinkage as the thick metal solidifies.  Shrinkage defects will have jagged or linear appearance. Shrinkage defects usually occur in either the cope or drag portion of the casting. Shrinkage defects can be split into two different types: open shrinkage defects and closed shrinkage defects. Open shrinkage defects are open to the atmosphere, therefore as the shrinkage cavity forms, air compensates. There are two types of open air defects: pipes and caved surfaces. Pipes form at the surface of the casting and burrow into the casting, while caved surfaces are shallow cavities that form across the surface of the casting.
+
+
+Closed shrinkage defects, also known as shrinkage porosity, are defects that form within the casting. Isolated pools of liquid form inside solidified metal, which are called hot spots. The shrinkage defect usually forms at the top of the hot spots. They require a nucleation point, so impurities and dissolved gas can induce closed shrinkage defects. The defects are broken up into macroporosity and microporosity (or micro shrinkage), where macroporosity can be seen by the naked eye and microporosity cannot.
+
+
+Gas porosity
+
+Gas porosity is the formation of bubbles within the casting after it has cooled. This occurs because most liquid materials can hold a large amount of dissolved gas, but the solid form of the same material cannot, so the gas forms bubbles within the material as it cools. Gas porosity may present itself on the surface of the casting as porosity or the pore may be trapped inside the metal, which reduces strength in that vicinity. Nitrogen, oxygen and hydrogen are the most encountered gases in cases of gas porosity. In aluminium castings, hydrogen is the only gas that dissolves in significant quantity, which can result in hydrogen gas porosity. For casting that are a few kilograms in weight the pores are usually 0.01 to 0.5 mm (0.0004 to 0.02 in) in size. In larger casting, they can be up to one millimetre (0.04 in) in diameter.
+
+
+To prevent gas porosity the material may be melted in a vacuum, in an environment of low-solubility gases, such as argon or carbon dioxide, or under a flux that prevents contact with the air. To minimize gas solubility the superheat temperatures can be kept low. Turbulence from pouring the liquid metal into the mould can introduce gases, so the moulds are often streamlined to minimize such turbulence. Other methods include vacuum degassing, gas flushing, or precipitation. Precipitation involves reacting the gas with another element to form a compound that will form a dross that floats to the top. For instance, oxygen can be removed from copper by adding phosphorus; aluminium or silicon can be added to steel to remove oxygen. A third source consists of reactions of the molten metal with grease or other residues in the mould.
+
+
+Hydrogen is produced by the reaction of the metal with humidity or residual moisture in the mould. Drying the mould can eliminate this source of hydrogen formation.
+
+
+Gas porosity can sometimes be difficult to distinguish from micro shrinkage because microshrinkage cavities can contain gases as well. In general, microporosities will form if the casting is not properly risered or if a material with a wide solidification range is cast. If neither of these are the case then most likely the porosity is due to gas formation.
+
+
+Tiny gas bubbles are called porosities, but larger gas bubbles are called blowholes or blisters. Such defects can be caused by air entrained in the melt, steam or smoke from the casting sand, or other gasses from the melt or mould. (Vacuum holes caused by metal shrinkage (see above) may also be loosely referred to as 'blowholes'). Proper foundry practices, including melt preparation and mould design, can reduce the occurrence of these defects. Because they are often surrounded by a skin of sound metal, blowholes may be difficult to detect, requiring harmonic, ultrasonic, magnetic, or X-ray (e.g., industrial CT scanning) analysis.
+
+
+Pouring metal defects
+
+Pouring metal defects include misruns, cold shuts, and inclusions. A misrun occurs when the liquid metal does not completely fill the mould cavity, leaving an unfilled portion. Cold shuts occur when two fronts of liquid metal do not fuse properly in the mould cavity, leaving a weak spot. Both are caused by either a lack of fluidity in the molten metal or cross-sections that are too narrow. The fluidity can be increased by changing the chemical composition of the metal or by increasing the pouring temperature. Another possible cause is back pressure from improperly vented mould cavities.
+
+
+Misruns and cold shuts are closely related and both involve the material freezing before it completely fills the mould cavity. These types of defects are serious because the area surrounding the defect is significantly weaker than intended. The castability and viscosity of the material can be important factors with these problems. Fluidity affects the minimum section thickness that can be cast, the maximum length of thin sections, fineness of feasibly cast details, and the accuracy of filling mould extremities. There are various ways of measuring the fluidity of a material, although it usually involves using a standard mould shape and measuring the distance the material flows. Fluidity is affected by the composition of the material, freezing temperature or range, surface tension of oxide films, and, most importantly, the pouring temperature. The higher the pouring temperature, the greater the fluidity; however, excessive temperatures can be detrimental, leading to a reaction between the material and the mould; in casting processes that use a porous mould material the material may even penetrate the mould material.
+
+
+The point at which the material cannot flow is called the coherency point. The point is difficult to predict in mould design because it is dependent on the solid fraction, the structure of the solidified particles, and the local shear strain rate of the fluid. Usually this value ranges from 0.4 to 0.8.
+
+
+An inclusion is a metal contamination of dross, if solid, or slag, if liquid. These usually are impurities in the pour metal (generally oxides, less frequently nitrides, carbides, or sulfides), material that is eroded from furnace or ladle linings, or contaminates from the mould. In the specific case of aluminium alloys, it is important to control the concentration of inclusions by measuring them in the liquid aluminium and taking actions to keep them to the required level.
+
+
+There are a number of ways to reduce the concentration of inclusions. In order to reduce oxide formation the metal can be melted with a flux, in a vacuum, or in an inert atmosphere. Other ingredients can be added to the mixture to cause the dross to float to the top where it can be skimmed off before the metal is poured into the mould. If this is not practical, then a special ladle that pours the metal from the bottom can be used. Another option is to install ceramic filters into the gating system. Otherwise swirl gates can be formed which swirl the liquid metal as it is poured in, forcing the lighter inclusions to the center and keeping them out of the casting. If some of the dross or slag is folded into the molten metal then it becomes an entrainment defect.
+
+
+Metallurgical defects
+
+There are two defects in this category: hot tears and hot spots. Hot tears, also known as hot cracking, are failures in the casting that occur as the casting cools. This happens because the metal is weak when it is hot and the residual stresses in the material can cause the casting to fail as it cools. Proper mould design prevents this type of defect.
+
+
+Hot spots are sections of casting which have cooled down more slowly than the surrounding material due to higher volume than its surrounding. This causes abnormal shrinkage in this region, which can lead to porosity and cracks.  This type of defect can be avoided by proper cooling practices or by changing the chemical composition of the metal. 
+Additional methods of minimising hot tears are not overheating the casting material and increasing the temperature of the mould.
+
+
+Die casting
+
+In die casting the most common defects are misruns and cold shuts. These defects can be caused by cold dies, low metal temperature, dirty metal, lack of venting, or excessive lubricant. Other possible defects are gas porosity, shrinkage porosity, hot tears, and flow marks. Flow marks are marks left on the surface of the casting due to poor gating, sharp corners or excessive lubricant.
+
+
+Continuous casting
+
+A longitudinal facial crack is a specialized type of defect that only occurs in continuous casting processes. This defect is caused by uneven cooling, both primary cooling and secondary cooling, and includes molten steel qualities, such as the chemical composition being out of specification, cleanliness of the material, and homogeneity.
+
+
+Sand casting
+
+Sand casting has many defects that can occur due to the mould failing. The mould usually fails because of one of two reasons: the wrong material is used or it is improperly rammed.
+
+
+The first type is mould erosion, which is the wearing away of the mould as the liquid metal fills the mould. This type of defect usually only occurs in sand castings because most other casting processes have more robust moulds. The castings produced have rough spots and excess material. The moulding sand becomes incorporated into the casting metal and decreases the ductility, fatigue strength, and fracture toughness of the casting. This can be caused by a sand with too little strength or a pouring velocity that is too fast. The pouring velocity can be reduced by redesigning the gating system to use larger runners or multiple gates. A related source of defects are drops, in which part of the moulding sand from the cope drops into the casting while it is still a liquid. This also occurs when the mould is not properly rammed.
+
+
+The second type of defect is metal penetration, which occurs when the liquid metal penetrates into the moulding sand. This causes a rough surface finish. This is caused by sand particles which are too coarse, lack of mould wash, or pouring temperatures that are too high. An alternative form of metal penetration into the mould known as veining is caused by cracking of the sand.
+
+
+If the pouring temperature is too high or a sand of low melting point is used then the sand can fuse to the casting. When this happens the surface of the casting produced has a brittle, glassy appearance.
+
+
+A run out occurs when the liquid metal leaks out of the mould because of a faulty mould or flask.
+
+
+Scabs are a thin layer of metal that sits proud of the casting. They are easy to remove and always reveal a buckle underneath, which is an indentation in the casting surface. Rattails are similar to buckles, except they are thin line indentations and not associated with scabs. Another similar defect is pulldowns, which are buckles that occur in the cope of sand castings. All of these defects are visual in nature and are no reason to scrap the workpiece. These defects are caused by overly high pouring temperatures or deficiencies of carbonaceous material.
+
+
+A swell occurs when the mould wall gives way across a whole face, and is caused by an improperly rammed mould.
+
+
+Burn-on occurs when metallic oxides interact with impurities in silica sands. The result is sand particles embedded in the surface of the finished casting. This defect can be avoided by reducing the temperature of the liquid metal, by using a mould wash, and by using various additives in the sand mixture.
+
+

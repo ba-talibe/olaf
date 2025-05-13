@@ -1,0 +1,95 @@
+{
+    "Inspection": [
+        "Vision Industrielle",
+        "norme NF G 00-001"
+    ],
+    "Objet inspecté": [
+        "pièce de tissu",
+        "morceau de tissu",
+        "échantillon",
+        "textile",
+        "trame",
+        "chaîne",
+        "duite",
+        "lisière",
+        "fil",
+        "navette"
+    ],
+    "Défauts": {
+        "Défauts de teinte / nuance": [
+            "variation de nuance",
+            "nuance non conforme",
+            "tache de teinture"
+        ],
+        "Défauts de motif / impression": [
+            "irrégularité de motif",
+            "répartition asymétrique du motif",
+            "défaut d'impression"
+        ],
+        "Défauts mécaniques": [
+            "cassure",
+            "sinuosité",
+            "marquage défectueux",
+            "marque de couture",
+            "coupure",
+            "déchirure",
+            "trou",
+            "accroc",
+            "point",
+            "frappe de navette",
+            "ondulation"
+        ],
+        "Défauts de lisière": [
+            "lisière rompue",
+            "lisière ondulée",
+            "lisière roulée",
+            "lisière surtendue",
+            "lisière crénelée"
+        ],
+        "Défauts des fils": [
+            "irrégularités localisées des fils",
+            "défaut de torsion",
+            "fil fin",
+            "gros fil",
+            "flamme",
+            "vrille",
+            "travelage",
+            "fils étrangers",
+            "fils souillés",
+            "ébouriffage local"
+        ],
+        "Défauts de duite": [
+            "double duite",
+            "éboulure",
+            "duite rompue",
+            "duite détendue",
+            "duite manquante",
+            "duite manquée",
+            "duite tendue",
+            "duite tirante"
+        ],
+        "Défauts de chaîne": [
+            "fil de chaîne double",
+            "fil de chaîne rompu",
+            "fil de chaîne flottant",
+            "fil de chaîne manquant",
+            "défaut de peigne"
+        ],
+        "Défauts divers": [
+            "barre",
+            "barre de finition",
+            "rayure de finition",
+            "irrégularité du duitage",
+            "amas de fibres",
+            "duvet",
+            "volard",
+            "bouton",
+            "corps étranger",
+            "tache de variation de compte",
+            "goutte de pluie",
+            "clairière",
+            "sauté",
+            "noeud pris"
+        ]
+    }
+}

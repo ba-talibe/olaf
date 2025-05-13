@@ -1,0 +1,23 @@
+Weft Defects
+The weft consists of yarns that cross the warp in a back-and-forth motion according to the weave desired. In the referenced image (from “Larousse Encyclopedia 2002”), the weft yarns are green, while warp yarns are blue and red. A pick refers to the weaving unit between weft and warp yarns. Main weft defects include:
+
+Double pick: Two picks are present
+
+Loop: Small folded part of a pick
+
+Broken pick: Cut or snapped weft yarn
+
+Loose pick: Pick longer than neighboring ones
+
+Missing pick: A pick is absent
+
+Skipped pick: Incorrectly inserted pick
+
+Tight pick: Pick shorter than the others
+
+Drawn-in pick: No take-up, may cause puckering
+
+Bar: Narrow stripe differing from the fabric
+
+Weft irregularity: Light bar from under-wefting, tight bar from over-wefting
+

@@ -1,0 +1,54 @@
+[
+    "casting defect",
+    {
+        "gas porosity": [
+            "hydrogen gas porosity",
+            "blowhole",
+            "blister"
+        ],
+        "shrinkage defect": [
+            "open shrinkage defect",
+            "closed shrinkage defect",
+            "shrinkage porosity",
+            "macroporosity",
+            "microporosity",
+            "hot spot"
+        ],
+        "mould material defect": [
+            "mould erosion",
+            "metal penetration",
+            "veining",
+            "run out",
+            "swell",
+            "burn-on",
+            "scab",
+            "buckle",
+            "rattail",
+            "pulldown"
+        ],
+        "pouring metal defect": [
+            "misrun",
+            "cold shut",
+            "inclusion",
+            "dross",
+            "slag",
+            "entrainment defect",
+            "flow mark"
+        ],
+        "metallurgical defect": [
+            "hot tear",
+            "hot cracking",
+            "hot spot"
+        ],
+        "process-specific defect": [
+            "longitudinal facial crack"
+        ]
+    },
+    "metal casting process",
+    "sand casting",
+    "discontinuity",
+    "imperfection",
+    "vacuum degassing",
+    "gas flushing",
+    "precipitation"
+]

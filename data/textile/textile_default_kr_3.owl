@@ -1,0 +1,55 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://olaf_demo_results.org/Cha%C3%AEne> a owl:Class ;
+    rdfs:label "chaîne"^^xsd:string ;
+    skos:altLabel "chaîne"^^xsd:string .
+
+<http://olaf_demo_results.org/D%C3%A9fauts> a owl:Class ;
+    rdfs:label "défauts"^^xsd:string ;
+    skos:altLabel "défauts"^^xsd:string .
+
+<http://olaf_demo_results.org/Duite> a owl:Class ;
+    rdfs:label "duite"^^xsd:string ;
+    skos:altLabel "duite"^^xsd:string .
+
+<http://olaf_demo_results.org/Fils> a owl:Class ;
+    rdfs:label "fils"^^xsd:string ;
+    skos:altLabel "fil"^^xsd:string,
+        "fils"^^xsd:string .
+
+<http://olaf_demo_results.org/Lisi%C3%A8re> a owl:Class ;
+    rdfs:label "lisière"^^xsd:string ;
+    skos:altLabel "lisière"^^xsd:string .
+
+<http://olaf_demo_results.org/Tissu> a owl:Class ;
+    rdfs:label "tissu"^^xsd:string ;
+    skos:altLabel "tissu"^^xsd:string .
+
+<http://olaf_demo_results.org/cha%C3%AEne> a owl:ObjectProperty ;
+    rdfs:label "chaîne"^^xsd:string ;
+    skos:altLabel "chaîne"^^xsd:string .
+
+<http://olaf_demo_results.org/d%C3%A9fauts> a owl:ObjectProperty ;
+    rdfs:label "défauts"^^xsd:string ;
+    skos:altLabel "défauts"^^xsd:string .
+
+<http://olaf_demo_results.org/duite> a owl:ObjectProperty ;
+    rdfs:label "duite"^^xsd:string ;
+    skos:altLabel "duite"^^xsd:string .
+
+<http://olaf_demo_results.org/fil> a owl:ObjectProperty ;
+    rdfs:label "fil"^^xsd:string ;
+    skos:altLabel "fil"^^xsd:string .
+
+<http://olaf_demo_results.org/fils> a owl:ObjectProperty ;
+    rdfs:label "fils"^^xsd:string ;
+    skos:altLabel "fil"^^xsd:string,
+        "fils"^^xsd:string .
+
+<http://olaf_demo_results.org/lisi%C3%A8re> a owl:ObjectProperty ;
+    rdfs:label "lisière"^^xsd:string ;
+    skos:altLabel "lisière"^^xsd:string .
+
