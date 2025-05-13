@@ -1,0 +1,1337 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://olaf_demo_results.org/0.4> a owl:ObjectProperty ;
+    rdfs:label "0.4"^^xsd:string ;
+    skos:altLabel "0.4"^^xsd:string .
+
+<http://olaf_demo_results.org/0.8> a owl:ObjectProperty ;
+    rdfs:label "0.8"^^xsd:string ;
+    skos:altLabel "0.8"^^xsd:string .
+
+<http://olaf_demo_results.org/Additional> a owl:Class ;
+    rdfs:label "additional"^^xsd:string ;
+    skos:altLabel "additional"^^xsd:string .
+
+<http://olaf_demo_results.org/Blowholes> a owl:Class ;
+    rdfs:label "blowholes"^^xsd:string ;
+    skos:altLabel "blowholes"^^xsd:string .
+
+<http://olaf_demo_results.org/Brittle> a owl:Class ;
+    rdfs:label "brittle"^^xsd:string ;
+    skos:altLabel "brittle"^^xsd:string .
+
+<http://olaf_demo_results.org/Buckles> a owl:Class ;
+    rdfs:label "buckles"^^xsd:string ;
+    skos:altLabel "buckles"^^xsd:string .
+
+<http://olaf_demo_results.org/Certain> a owl:Class ;
+    rdfs:label "certain"^^xsd:string ;
+    skos:altLabel "certain"^^xsd:string .
+
+<http://olaf_demo_results.org/Continuous> a owl:Class ;
+    rdfs:label "continuous"^^xsd:string ;
+    skos:altLabel "continuous"^^xsd:string .
+
+<http://olaf_demo_results.org/Cooling> a owl:Class ;
+    rdfs:label "cooling"^^xsd:string ;
+    skos:altLabel "cooling"^^xsd:string .
+
+<http://olaf_demo_results.org/Defects> a owl:Class ;
+    rdfs:label "defects"^^xsd:string ;
+    skos:altLabel "defects"^^xsd:string .
+
+<http://olaf_demo_results.org/Die> a owl:Class ;
+    rdfs:label "die"^^xsd:string ;
+    skos:altLabel "die"^^xsd:string .
+
+<http://olaf_demo_results.org/Drying> a owl:Class ;
+    rdfs:label "drying"^^xsd:string ;
+    skos:altLabel "drying"^^xsd:string .
+
+<http://olaf_demo_results.org/Eliminate> a owl:Class ;
+    rdfs:label "eliminate"^^xsd:string ;
+    skos:altLabel "eliminate"^^xsd:string .
+
+<http://olaf_demo_results.org/Face> a owl:Class ;
+    rdfs:label "face"^^xsd:string ;
+    skos:altLabel "face"^^xsd:string .
+
+<http://olaf_demo_results.org/Failing> a owl:Class ;
+    rdfs:label "failing"^^xsd:string ;
+    skos:altLabel "failing"^^xsd:string .
+
+<http://olaf_demo_results.org/Fails> a owl:Class ;
+    rdfs:label "fails"^^xsd:string ;
+    skos:altLabel "fails"^^xsd:string .
+
+<http://olaf_demo_results.org/Faulty> a owl:Class ;
+    rdfs:label "faulty"^^xsd:string ;
+    skos:altLabel "faulty"^^xsd:string .
+
+<http://olaf_demo_results.org/Flask> a owl:Class ;
+    rdfs:label "flask"^^xsd:string ;
+    skos:altLabel "flask"^^xsd:string .
+
+<http://olaf_demo_results.org/Fluidity> a owl:Class ;
+    rdfs:label "fluidity"^^xsd:string ;
+    skos:altLabel "fluidity"^^xsd:string .
+
+<http://olaf_demo_results.org/Following> a owl:Class ;
+    rdfs:label "following"^^xsd:string ;
+    skos:altLabel "following"^^xsd:string .
+
+<http://olaf_demo_results.org/Gas> a owl:Class ;
+    rdfs:label "gas"^^xsd:string ;
+    skos:altLabel "gas"^^xsd:string .
+
+<http://olaf_demo_results.org/Gives> a owl:Class ;
+    rdfs:label "gives"^^xsd:string ;
+    skos:altLabel "gives"^^xsd:string .
+
+<http://olaf_demo_results.org/Glassy> a owl:Class ;
+    rdfs:label "glassy"^^xsd:string ;
+    skos:altLabel "glassy"^^xsd:string .
+
+<http://olaf_demo_results.org/Hot> a owl:Class ;
+    rdfs:label "hot"^^xsd:string ;
+    skos:altLabel "hot"^^xsd:string .
+
+<http://olaf_demo_results.org/Humidity> a owl:Class ;
+    rdfs:label "humidity"^^xsd:string ;
+    skos:altLabel "humidity"^^xsd:string .
+
+<http://olaf_demo_results.org/Hydrogen> a owl:Class ;
+    rdfs:label "hydrogen"^^xsd:string ;
+    skos:altLabel "hydrogen"^^xsd:string .
+
+<http://olaf_demo_results.org/Leaks> a owl:Class ;
+    rdfs:label "leaks"^^xsd:string ;
+    skos:altLabel "leaks"^^xsd:string .
+
+<http://olaf_demo_results.org/Leaving> a owl:Class ;
+    rdfs:label "leaving"^^xsd:string ;
+    skos:altLabel "leaving"^^xsd:string .
+
+<http://olaf_demo_results.org/Lubricant> a owl:Class ;
+    rdfs:label "lubricant"^^xsd:string ;
+    skos:altLabel "lubricant"^^xsd:string .
+
+<http://olaf_demo_results.org/Macroporosity> a owl:Class ;
+    rdfs:label "macroporosity"^^xsd:string ;
+    skos:altLabel "macroporosity"^^xsd:string .
+
+<http://olaf_demo_results.org/Marks> a owl:Class ;
+    rdfs:label "marks"^^xsd:string ;
+    skos:altLabel "marks"^^xsd:string .
+
+<http://olaf_demo_results.org/Melt> a owl:Class ;
+    rdfs:label "melt"^^xsd:string ;
+    skos:altLabel "melt"^^xsd:string .
+
+<http://olaf_demo_results.org/Melting> a owl:Class ;
+    rdfs:label "melting"^^xsd:string ;
+    skos:altLabel "melting"^^xsd:string .
+
+<http://olaf_demo_results.org/Metallurgical> a owl:Class ;
+    rdfs:label "metallurgical"^^xsd:string ;
+    skos:altLabel "metallurgical"^^xsd:string .
+
+<http://olaf_demo_results.org/Microporosity> a owl:Class ;
+    rdfs:label "microporosity"^^xsd:string ;
+    skos:altLabel "microporosity"^^xsd:string .
+
+<http://olaf_demo_results.org/Minimising> a owl:Class ;
+    rdfs:label "minimising"^^xsd:string ;
+    skos:altLabel "minimising"^^xsd:string .
+
+<http://olaf_demo_results.org/Moisture> a owl:Class ;
+    rdfs:label "moisture"^^xsd:string ;
+    skos:altLabel "moisture"^^xsd:string .
+
+<http://olaf_demo_results.org/Open> a owl:Class ;
+    rdfs:label "open"^^xsd:string ;
+    skos:altLabel "open"^^xsd:string .
+
+<http://olaf_demo_results.org/Overheating> a owl:Class ;
+    rdfs:label "overheating"^^xsd:string ;
+    skos:altLabel "overheating"^^xsd:string .
+
+<http://olaf_demo_results.org/Penetration> a owl:Class ;
+    rdfs:label "penetration"^^xsd:string ;
+    skos:altLabel "penetration"^^xsd:string .
+
+<http://olaf_demo_results.org/Point> a owl:Class ;
+    rdfs:label "point"^^xsd:string ;
+    skos:altLabel "point"^^xsd:string .
+
+<http://olaf_demo_results.org/Porosity> a owl:Class ;
+    rdfs:label "porosity"^^xsd:string ;
+    skos:altLabel "porosity"^^xsd:string .
+
+<http://olaf_demo_results.org/Reasons> a owl:Class ;
+    rdfs:label "reasons"^^xsd:string ;
+    skos:altLabel "reasons"^^xsd:string .
+
+<http://olaf_demo_results.org/Run> a owl:Class ;
+    rdfs:label "run"^^xsd:string ;
+    skos:altLabel "run"^^xsd:string .
+
+<http://olaf_demo_results.org/Sand> a owl:Class ;
+    rdfs:label "sand"^^xsd:string ;
+    skos:altLabel "sand"^^xsd:string .
+
+<http://olaf_demo_results.org/Scabs> a owl:Class ;
+    rdfs:label "scabs"^^xsd:string ;
+    skos:altLabel "scabs"^^xsd:string .
+
+<http://olaf_demo_results.org/Shrinkage> a owl:Class ;
+    rdfs:label "shrinkage"^^xsd:string ;
+    skos:altLabel "shrinkage"^^xsd:string .
+
+<http://olaf_demo_results.org/Similar> a owl:Class ;
+    rdfs:label "similar"^^xsd:string ;
+    skos:altLabel "similar"^^xsd:string .
+
+<http://olaf_demo_results.org/Solutions> a owl:Class ;
+    rdfs:label "solutions"^^xsd:string ;
+    skos:altLabel "solutions"^^xsd:string .
+
+<http://olaf_demo_results.org/Swell> a owl:Class ;
+    rdfs:label "swell"^^xsd:string ;
+    skos:altLabel "swell"^^xsd:string .
+
+<http://olaf_demo_results.org/Tears> a owl:Class ;
+    rdfs:label "tears"^^xsd:string ;
+    skos:altLabel "tears"^^xsd:string .
+
+<http://olaf_demo_results.org/Terminology> a owl:Class ;
+    rdfs:label "terminology"^^xsd:string ;
+    skos:altLabel "terminology"^^xsd:string .
+
+<http://olaf_demo_results.org/Types> a owl:Class ;
+    rdfs:label "types"^^xsd:string ;
+    skos:altLabel "types"^^xsd:string .
+
+<http://olaf_demo_results.org/Wall> a owl:Class ;
+    rdfs:label "wall"^^xsd:string ;
+    skos:altLabel "wall"^^xsd:string .
+
+<http://olaf_demo_results.org/Way> a owl:Class ;
+    rdfs:label "way"^^xsd:string ;
+    skos:altLabel "way"^^xsd:string .
+
+<http://olaf_demo_results.org/Wrong> a owl:Class ;
+    rdfs:label "wrong"^^xsd:string ;
+    skos:altLabel "wrong"^^xsd:string .
+
+<http://olaf_demo_results.org/abnormal> a owl:ObjectProperty ;
+    rdfs:label "abnormal"^^xsd:string ;
+    skos:altLabel "abnormal"^^xsd:string .
+
+<http://olaf_demo_results.org/actions> a owl:ObjectProperty ;
+    rdfs:label "actions"^^xsd:string ;
+    skos:altLabel "actions"^^xsd:string .
+
+<http://olaf_demo_results.org/additional> a owl:ObjectProperty ;
+    rdfs:label "additional"^^xsd:string ;
+    skos:altLabel "additional"^^xsd:string .
+
+<http://olaf_demo_results.org/additives> a owl:ObjectProperty ;
+    rdfs:label "additives"^^xsd:string ;
+    skos:altLabel "additives"^^xsd:string .
+
+<http://olaf_demo_results.org/alloys> a owl:ObjectProperty ;
+    rdfs:label "alloys"^^xsd:string ;
+    skos:altLabel "alloys"^^xsd:string .
+
+<http://olaf_demo_results.org/alternative> a owl:ObjectProperty ;
+    rdfs:label "alternative"^^xsd:string ;
+    skos:altLabel "alternative"^^xsd:string .
+
+<http://olaf_demo_results.org/aluminium> a owl:ObjectProperty ;
+    rdfs:label "aluminium"^^xsd:string ;
+    skos:altLabel "aluminium"^^xsd:string .
+
+<http://olaf_demo_results.org/appearance> a owl:ObjectProperty ;
+    rdfs:label "appearance"^^xsd:string ;
+    skos:altLabel "appearance"^^xsd:string .
+
+<http://olaf_demo_results.org/associated> a owl:ObjectProperty ;
+    rdfs:label "associated"^^xsd:string ;
+    skos:altLabel "associated"^^xsd:string .
+
+<http://olaf_demo_results.org/avoided> a owl:ObjectProperty ;
+    rdfs:label "avoided"^^xsd:string ;
+    skos:altLabel "avoided"^^xsd:string .
+
+<http://olaf_demo_results.org/blowholes> a owl:ObjectProperty ;
+    rdfs:label "blowholes"^^xsd:string ;
+    skos:altLabel "blowholes"^^xsd:string .
+
+<http://olaf_demo_results.org/brittle> a owl:ObjectProperty ;
+    rdfs:label "brittle"^^xsd:string ;
+    skos:altLabel "brittle"^^xsd:string .
+
+<http://olaf_demo_results.org/broken> a owl:ObjectProperty ;
+    rdfs:label "broken"^^xsd:string ;
+    skos:altLabel "broken"^^xsd:string .
+
+<http://olaf_demo_results.org/bubbles> a owl:ObjectProperty ;
+    rdfs:label "bubbles"^^xsd:string ;
+    skos:altLabel "bubbles"^^xsd:string .
+
+<http://olaf_demo_results.org/buckle> a owl:ObjectProperty ;
+    rdfs:label "buckle"^^xsd:string ;
+    skos:altLabel "buckle"^^xsd:string .
+
+<http://olaf_demo_results.org/buckles> a owl:ObjectProperty ;
+    rdfs:label "buckles"^^xsd:string ;
+    skos:altLabel "buckles"^^xsd:string .
+
+<http://olaf_demo_results.org/burn> a owl:ObjectProperty ;
+    rdfs:label "burn"^^xsd:string ;
+    skos:altLabel "burn"^^xsd:string .
+
+<http://olaf_demo_results.org/called> a owl:ObjectProperty ;
+    rdfs:label "called"^^xsd:string ;
+    skos:altLabel "called"^^xsd:string .
+
+<http://olaf_demo_results.org/carbides> a owl:ObjectProperty ;
+    rdfs:label "carbides"^^xsd:string ;
+    skos:altLabel "carbides"^^xsd:string .
+
+<http://olaf_demo_results.org/carbonaceous> a owl:ObjectProperty ;
+    rdfs:label "carbonaceous"^^xsd:string ;
+    skos:altLabel "carbonaceous"^^xsd:string .
+
+<http://olaf_demo_results.org/case> a owl:ObjectProperty ;
+    rdfs:label "case"^^xsd:string ;
+    skos:altLabel "case"^^xsd:string .
+
+<http://olaf_demo_results.org/cast> a owl:ObjectProperty ;
+    rdfs:label "cast"^^xsd:string ;
+    skos:altLabel "cast"^^xsd:string .
+
+<http://olaf_demo_results.org/casting> a owl:ObjectProperty ;
+    rdfs:label "casting"^^xsd:string ;
+    skos:altLabel "casting"^^xsd:string .
+
+<http://olaf_demo_results.org/castings> a owl:ObjectProperty ;
+    rdfs:label "castings"^^xsd:string ;
+    skos:altLabel "castings"^^xsd:string .
+
+<http://olaf_demo_results.org/categories> a owl:ObjectProperty ;
+    rdfs:label "categories"^^xsd:string ;
+    skos:altLabel "categories"^^xsd:string .
+
+<http://olaf_demo_results.org/category> a owl:ObjectProperty ;
+    rdfs:label "category"^^xsd:string ;
+    skos:altLabel "category"^^xsd:string .
+
+<http://olaf_demo_results.org/cause> a owl:ObjectProperty ;
+    rdfs:label "cause"^^xsd:string ;
+    skos:altLabel "cause"^^xsd:string .
+
+<http://olaf_demo_results.org/caused> a owl:ObjectProperty ;
+    rdfs:label "caused"^^xsd:string ;
+    skos:altLabel "caused"^^xsd:string .
+
+<http://olaf_demo_results.org/causes> a owl:ObjectProperty ;
+    rdfs:label "causes"^^xsd:string ;
+    skos:altLabel "causes"^^xsd:string .
+
+<http://olaf_demo_results.org/caved> a owl:ObjectProperty ;
+    rdfs:label "caved"^^xsd:string ;
+    skos:altLabel "caved"^^xsd:string .
+
+<http://olaf_demo_results.org/cavity> a owl:ObjectProperty ;
+    rdfs:label "cavity"^^xsd:string ;
+    skos:altLabel "cavity"^^xsd:string .
+
+<http://olaf_demo_results.org/certain> a owl:ObjectProperty ;
+    rdfs:label "certain"^^xsd:string ;
+    skos:altLabel "certain"^^xsd:string .
+
+<http://olaf_demo_results.org/changing> a owl:ObjectProperty ;
+    rdfs:label "changing"^^xsd:string ;
+    skos:altLabel "changing"^^xsd:string .
+
+<http://olaf_demo_results.org/chemical> a owl:ObjectProperty ;
+    rdfs:label "chemical"^^xsd:string ;
+    skos:altLabel "chemical"^^xsd:string .
+
+<http://olaf_demo_results.org/cleanliness> a owl:ObjectProperty ;
+    rdfs:label "cleanliness"^^xsd:string ;
+    skos:altLabel "cleanliness"^^xsd:string .
+
+<http://olaf_demo_results.org/closed> a owl:ObjectProperty ;
+    rdfs:label "closed"^^xsd:string ;
+    skos:altLabel "closed"^^xsd:string .
+
+<http://olaf_demo_results.org/coarse> a owl:ObjectProperty ;
+    rdfs:label "coarse"^^xsd:string ;
+    skos:altLabel "coarse"^^xsd:string .
+
+<http://olaf_demo_results.org/coherency> a owl:ObjectProperty ;
+    rdfs:label "coherency"^^xsd:string ;
+    skos:altLabel "coherency"^^xsd:string .
+
+<http://olaf_demo_results.org/cold> a owl:ObjectProperty ;
+    rdfs:label "cold"^^xsd:string ;
+    skos:altLabel "cold"^^xsd:string .
+
+<http://olaf_demo_results.org/common> a owl:ObjectProperty ;
+    rdfs:label "common"^^xsd:string ;
+    skos:altLabel "common"^^xsd:string .
+
+<http://olaf_demo_results.org/contain> a owl:ObjectProperty ;
+    rdfs:label "contain"^^xsd:string ;
+    skos:altLabel "contain"^^xsd:string .
+
+<http://olaf_demo_results.org/contaminates> a owl:ObjectProperty ;
+    rdfs:label "contaminates"^^xsd:string ;
+    skos:altLabel "contaminates"^^xsd:string .
+
+<http://olaf_demo_results.org/contamination> a owl:ObjectProperty ;
+    rdfs:label "contamination"^^xsd:string ;
+    skos:altLabel "contamination"^^xsd:string .
+
+<http://olaf_demo_results.org/continuous> a owl:ObjectProperty ;
+    rdfs:label "continuous"^^xsd:string ;
+    skos:altLabel "continuous"^^xsd:string .
+
+<http://olaf_demo_results.org/control> a owl:ObjectProperty ;
+    rdfs:label "control"^^xsd:string ;
+    skos:altLabel "control"^^xsd:string .
+
+<http://olaf_demo_results.org/cooled> a owl:ObjectProperty ;
+    rdfs:label "cooled"^^xsd:string ;
+    skos:altLabel "cooled"^^xsd:string .
+
+<http://olaf_demo_results.org/cooling> a owl:ObjectProperty ;
+    rdfs:label "cooling"^^xsd:string ;
+    skos:altLabel "cooling"^^xsd:string .
+
+<http://olaf_demo_results.org/cools> a owl:ObjectProperty ;
+    rdfs:label "cools"^^xsd:string ;
+    skos:altLabel "cools"^^xsd:string .
+
+<http://olaf_demo_results.org/corners> a owl:ObjectProperty ;
+    rdfs:label "corners"^^xsd:string ;
+    skos:altLabel "corners"^^xsd:string .
+
+<http://olaf_demo_results.org/crack> a owl:ObjectProperty ;
+    rdfs:label "crack"^^xsd:string ;
+    skos:altLabel "crack"^^xsd:string .
+
+<http://olaf_demo_results.org/cracking> a owl:ObjectProperty ;
+    rdfs:label "cracking"^^xsd:string ;
+    skos:altLabel "cracking"^^xsd:string .
+
+<http://olaf_demo_results.org/cracks> a owl:ObjectProperty ;
+    rdfs:label "cracks"^^xsd:string ;
+    skos:altLabel "cracks"^^xsd:string .
+
+<http://olaf_demo_results.org/cross> a owl:ObjectProperty ;
+    rdfs:label "cross"^^xsd:string ;
+    skos:altLabel "cross"^^xsd:string .
+
+<http://olaf_demo_results.org/defects> a owl:ObjectProperty ;
+    rdfs:label "defects"^^xsd:string ;
+    skos:altLabel "defects"^^xsd:string .
+
+<http://olaf_demo_results.org/deficiencies> a owl:ObjectProperty ;
+    rdfs:label "deficiencies"^^xsd:string ;
+    skos:altLabel "deficiencies"^^xsd:string .
+
+<http://olaf_demo_results.org/defined> a owl:ObjectProperty ;
+    rdfs:label "defined"^^xsd:string ;
+    skos:altLabel "defined"^^xsd:string .
+
+<http://olaf_demo_results.org/dependent> a owl:ObjectProperty ;
+    rdfs:label "dependent"^^xsd:string ;
+    skos:altLabel "dependent"^^xsd:string .
+
+<http://olaf_demo_results.org/design> a owl:ObjectProperty ;
+    rdfs:label "design"^^xsd:string ;
+    skos:altLabel "design"^^xsd:string .
+
+<http://olaf_demo_results.org/die> a owl:ObjectProperty ;
+    rdfs:label "die"^^xsd:string ;
+    skos:altLabel "die"^^xsd:string .
+
+<http://olaf_demo_results.org/dies> a owl:ObjectProperty ;
+    rdfs:label "dies"^^xsd:string ;
+    skos:altLabel "dies"^^xsd:string .
+
+<http://olaf_demo_results.org/different> a owl:ObjectProperty ;
+    rdfs:label "different"^^xsd:string ;
+    skos:altLabel "different"^^xsd:string .
+
+<http://olaf_demo_results.org/difficult> a owl:ObjectProperty ;
+    rdfs:label "difficult"^^xsd:string ;
+    skos:altLabel "difficult"^^xsd:string .
+
+<http://olaf_demo_results.org/dirty> a owl:ObjectProperty ;
+    rdfs:label "dirty"^^xsd:string ;
+    skos:altLabel "dirty"^^xsd:string .
+
+<http://olaf_demo_results.org/discontinuities> a owl:ObjectProperty ;
+    rdfs:label "discontinuities"^^xsd:string ;
+    skos:altLabel "discontinuities"^^xsd:string .
+
+<http://olaf_demo_results.org/distinguish> a owl:ObjectProperty ;
+    rdfs:label "distinguish"^^xsd:string ;
+    skos:altLabel "distinguish"^^xsd:string .
+
+<http://olaf_demo_results.org/drops> a owl:ObjectProperty ;
+    rdfs:label "drops"^^xsd:string ;
+    skos:altLabel "drops"^^xsd:string .
+
+<http://olaf_demo_results.org/dross> a owl:ObjectProperty ;
+    rdfs:label "dross"^^xsd:string ;
+    skos:altLabel "dross"^^xsd:string .
+
+<http://olaf_demo_results.org/drying> a owl:ObjectProperty ;
+    rdfs:label "drying"^^xsd:string ;
+    skos:altLabel "drying"^^xsd:string .
+
+<http://olaf_demo_results.org/easy> a owl:ObjectProperty ;
+    rdfs:label "easy"^^xsd:string ;
+    skos:altLabel "easy"^^xsd:string .
+
+<http://olaf_demo_results.org/eliminate> a owl:ObjectProperty ;
+    rdfs:label "eliminate"^^xsd:string ;
+    skos:altLabel "eliminate"^^xsd:string .
+
+<http://olaf_demo_results.org/eliminated> a owl:ObjectProperty ;
+    rdfs:label "eliminated"^^xsd:string ;
+    skos:altLabel "eliminated"^^xsd:string .
+
+<http://olaf_demo_results.org/embedded> a owl:ObjectProperty ;
+    rdfs:label "embedded"^^xsd:string ;
+    skos:altLabel "embedded"^^xsd:string .
+
+<http://olaf_demo_results.org/eroded> a owl:ObjectProperty ;
+    rdfs:label "eroded"^^xsd:string ;
+    skos:altLabel "eroded"^^xsd:string .
+
+<http://olaf_demo_results.org/excessive> a owl:ObjectProperty ;
+    rdfs:label "excessive"^^xsd:string ;
+    skos:altLabel "excessive"^^xsd:string .
+
+<http://olaf_demo_results.org/eye> a owl:ObjectProperty ;
+    rdfs:label "eye"^^xsd:string ;
+    skos:altLabel "eye"^^xsd:string .
+
+<http://olaf_demo_results.org/face> a owl:ObjectProperty ;
+    rdfs:label "face"^^xsd:string ;
+    skos:altLabel "face"^^xsd:string .
+
+<http://olaf_demo_results.org/facial> a owl:ObjectProperty ;
+    rdfs:label "facial"^^xsd:string ;
+    skos:altLabel "facial"^^xsd:string .
+
+<http://olaf_demo_results.org/fail> a owl:ObjectProperty ;
+    rdfs:label "fail"^^xsd:string ;
+    skos:altLabel "fail"^^xsd:string .
+
+<http://olaf_demo_results.org/failing> a owl:ObjectProperty ;
+    rdfs:label "failing"^^xsd:string ;
+    skos:altLabel "failing"^^xsd:string .
+
+<http://olaf_demo_results.org/fails> a owl:ObjectProperty ;
+    rdfs:label "fails"^^xsd:string ;
+    skos:altLabel "fails"^^xsd:string .
+
+<http://olaf_demo_results.org/failures> a owl:ObjectProperty ;
+    rdfs:label "failures"^^xsd:string ;
+    skos:altLabel "failures"^^xsd:string .
+
+<http://olaf_demo_results.org/faulty> a owl:ObjectProperty ;
+    rdfs:label "faulty"^^xsd:string ;
+    skos:altLabel "faulty"^^xsd:string .
+
+<http://olaf_demo_results.org/fill> a owl:ObjectProperty ;
+    rdfs:label "fill"^^xsd:string ;
+    skos:altLabel "fill"^^xsd:string .
+
+<http://olaf_demo_results.org/finish> a owl:ObjectProperty ;
+    rdfs:label "finish"^^xsd:string ;
+    skos:altLabel "finish"^^xsd:string .
+
+<http://olaf_demo_results.org/finished> a owl:ObjectProperty ;
+    rdfs:label "finished"^^xsd:string ;
+    skos:altLabel "finished"^^xsd:string .
+
+<http://olaf_demo_results.org/flask> a owl:ObjectProperty ;
+    rdfs:label "flask"^^xsd:string ;
+    skos:altLabel "flask"^^xsd:string .
+
+<http://olaf_demo_results.org/flow> a owl:ObjectProperty ;
+    rdfs:label "flow"^^xsd:string ;
+    skos:altLabel "flow"^^xsd:string .
+
+<http://olaf_demo_results.org/fluid> a owl:ObjectProperty ;
+    rdfs:label "fluid"^^xsd:string ;
+    skos:altLabel "fluid"^^xsd:string .
+
+<http://olaf_demo_results.org/fluidity> a owl:ObjectProperty ;
+    rdfs:label "fluidity"^^xsd:string ;
+    skos:altLabel "fluidity"^^xsd:string .
+
+<http://olaf_demo_results.org/following> a owl:ObjectProperty ;
+    rdfs:label "following"^^xsd:string ;
+    skos:altLabel "following"^^xsd:string .
+
+<http://olaf_demo_results.org/form> a owl:ObjectProperty ;
+    rdfs:label "form"^^xsd:string ;
+    skos:altLabel "form"^^xsd:string .
+
+<http://olaf_demo_results.org/formation> a owl:ObjectProperty ;
+    rdfs:label "formation"^^xsd:string ;
+    skos:altLabel "formation"^^xsd:string .
+
+<http://olaf_demo_results.org/fraction> a owl:ObjectProperty ;
+    rdfs:label "fraction"^^xsd:string ;
+    skos:altLabel "fraction"^^xsd:string .
+
+<http://olaf_demo_results.org/freezing> a owl:ObjectProperty ;
+    rdfs:label "freezing"^^xsd:string ;
+    skos:altLabel "freezing"^^xsd:string .
+
+<http://olaf_demo_results.org/frequently> a owl:ObjectProperty ;
+    rdfs:label "frequently"^^xsd:string ;
+    skos:altLabel "frequently"^^xsd:string .
+
+<http://olaf_demo_results.org/fronts> a owl:ObjectProperty ;
+    rdfs:label "fronts"^^xsd:string ;
+    skos:altLabel "fronts"^^xsd:string .
+
+<http://olaf_demo_results.org/furnace> a owl:ObjectProperty ;
+    rdfs:label "furnace"^^xsd:string ;
+    skos:altLabel "furnace"^^xsd:string .
+
+<http://olaf_demo_results.org/fuse> a owl:ObjectProperty ;
+    rdfs:label "fuse"^^xsd:string ;
+    skos:altLabel "fuse"^^xsd:string .
+
+<http://olaf_demo_results.org/gas> a owl:ObjectProperty ;
+    rdfs:label "gas"^^xsd:string ;
+    skos:altLabel "gas"^^xsd:string .
+
+<http://olaf_demo_results.org/gases> a owl:ObjectProperty ;
+    rdfs:label "gases"^^xsd:string ;
+    skos:altLabel "gases"^^xsd:string .
+
+<http://olaf_demo_results.org/general> a owl:ObjectProperty ;
+    rdfs:label "general"^^xsd:string ;
+    skos:altLabel "general"^^xsd:string .
+
+<http://olaf_demo_results.org/generally> a owl:ObjectProperty ;
+    rdfs:label "generally"^^xsd:string ;
+    skos:altLabel "generally"^^xsd:string .
+
+<http://olaf_demo_results.org/gives> a owl:ObjectProperty ;
+    rdfs:label "gives"^^xsd:string ;
+    skos:altLabel "gives"^^xsd:string .
+
+<http://olaf_demo_results.org/glassy> a owl:ObjectProperty ;
+    rdfs:label "glassy"^^xsd:string ;
+    skos:altLabel "glassy"^^xsd:string .
+
+<http://olaf_demo_results.org/happens> a owl:ObjectProperty ;
+    rdfs:label "happens"^^xsd:string ;
+    skos:altLabel "happens"^^xsd:string .
+
+<http://olaf_demo_results.org/high> a owl:ObjectProperty ;
+    rdfs:label "high"^^xsd:string ;
+    skos:altLabel "high"^^xsd:string .
+
+<http://olaf_demo_results.org/higher> a owl:ObjectProperty ;
+    rdfs:label "higher"^^xsd:string ;
+    skos:altLabel "higher"^^xsd:string .
+
+<http://olaf_demo_results.org/homogeneity> a owl:ObjectProperty ;
+    rdfs:label "homogeneity"^^xsd:string ;
+    skos:altLabel "homogeneity"^^xsd:string .
+
+<http://olaf_demo_results.org/hot> a owl:ObjectProperty ;
+    rdfs:label "hot"^^xsd:string ;
+    skos:altLabel "hot"^^xsd:string .
+
+<http://olaf_demo_results.org/humidity> a owl:ObjectProperty ;
+    rdfs:label "humidity"^^xsd:string ;
+    skos:altLabel "humidity"^^xsd:string .
+
+<http://olaf_demo_results.org/hydrogen> a owl:ObjectProperty ;
+    rdfs:label "hydrogen"^^xsd:string ;
+    skos:altLabel "hydrogen"^^xsd:string .
+
+<http://olaf_demo_results.org/imperfections> a owl:ObjectProperty ;
+    rdfs:label "imperfections"^^xsd:string ;
+    skos:altLabel "imperfections"^^xsd:string .
+
+<http://olaf_demo_results.org/improperly> a owl:ObjectProperty ;
+    rdfs:label "improperly"^^xsd:string ;
+    skos:altLabel "improperly"^^xsd:string .
+
+<http://olaf_demo_results.org/impurities> a owl:ObjectProperty ;
+    rdfs:label "impurities"^^xsd:string ;
+    skos:altLabel "impurities"^^xsd:string .
+
+<http://olaf_demo_results.org/includes> a owl:ObjectProperty ;
+    rdfs:label "includes"^^xsd:string ;
+    skos:altLabel "includes"^^xsd:string .
+
+<http://olaf_demo_results.org/inclusion> a owl:ObjectProperty ;
+    rdfs:label "inclusion"^^xsd:string ;
+    skos:altLabel "inclusion"^^xsd:string .
+
+<http://olaf_demo_results.org/inclusions> a owl:ObjectProperty ;
+    rdfs:label "inclusions"^^xsd:string ;
+    skos:altLabel "inclusions"^^xsd:string .
+
+<http://olaf_demo_results.org/increased> a owl:ObjectProperty ;
+    rdfs:label "increased"^^xsd:string ;
+    skos:altLabel "increased"^^xsd:string .
+
+<http://olaf_demo_results.org/increasing> a owl:ObjectProperty ;
+    rdfs:label "increasing"^^xsd:string ;
+    skos:altLabel "increasing"^^xsd:string .
+
+<http://olaf_demo_results.org/indentation> a owl:ObjectProperty ;
+    rdfs:label "indentation"^^xsd:string ;
+    skos:altLabel "indentation"^^xsd:string .
+
+<http://olaf_demo_results.org/indentations> a owl:ObjectProperty ;
+    rdfs:label "indentations"^^xsd:string ;
+    skos:altLabel "indentations"^^xsd:string .
+
+<http://olaf_demo_results.org/induce> a owl:ObjectProperty ;
+    rdfs:label "induce"^^xsd:string ;
+    skos:altLabel "induce"^^xsd:string .
+
+<http://olaf_demo_results.org/interact> a owl:ObjectProperty ;
+    rdfs:label "interact"^^xsd:string ;
+    skos:altLabel "interact"^^xsd:string .
+
+<http://olaf_demo_results.org/irregularity> a owl:ObjectProperty ;
+    rdfs:label "irregularity"^^xsd:string ;
+    skos:altLabel "irregularity"^^xsd:string .
+
+<http://olaf_demo_results.org/isolated> a owl:ObjectProperty ;
+    rdfs:label "isolated"^^xsd:string ;
+    skos:altLabel "isolated"^^xsd:string .
+
+<http://olaf_demo_results.org/lack> a owl:ObjectProperty ;
+    rdfs:label "lack"^^xsd:string ;
+    skos:altLabel "lack"^^xsd:string .
+
+<http://olaf_demo_results.org/layer> a owl:ObjectProperty ;
+    rdfs:label "layer"^^xsd:string ;
+    skos:altLabel "layer"^^xsd:string .
+
+<http://olaf_demo_results.org/lead> a owl:ObjectProperty ;
+    rdfs:label "lead"^^xsd:string ;
+    skos:altLabel "lead"^^xsd:string .
+
+<http://olaf_demo_results.org/leaks> a owl:ObjectProperty ;
+    rdfs:label "leaks"^^xsd:string ;
+    skos:altLabel "leaks"^^xsd:string .
+
+<http://olaf_demo_results.org/leaving> a owl:ObjectProperty ;
+    rdfs:label "leaving"^^xsd:string ;
+    skos:altLabel "leaving"^^xsd:string .
+
+<http://olaf_demo_results.org/left> a owl:ObjectProperty ;
+    rdfs:label "left"^^xsd:string ;
+    skos:altLabel "left"^^xsd:string .
+
+<http://olaf_demo_results.org/level> a owl:ObjectProperty ;
+    rdfs:label "level"^^xsd:string ;
+    skos:altLabel "level"^^xsd:string .
+
+<http://olaf_demo_results.org/likely> a owl:ObjectProperty ;
+    rdfs:label "likely"^^xsd:string ;
+    skos:altLabel "likely"^^xsd:string .
+
+<http://olaf_demo_results.org/line> a owl:ObjectProperty ;
+    rdfs:label "line"^^xsd:string ;
+    skos:altLabel "line"^^xsd:string .
+
+<http://olaf_demo_results.org/linings> a owl:ObjectProperty ;
+    rdfs:label "linings"^^xsd:string ;
+    skos:altLabel "linings"^^xsd:string .
+
+<http://olaf_demo_results.org/local> a owl:ObjectProperty ;
+    rdfs:label "local"^^xsd:string ;
+    skos:altLabel "local"^^xsd:string .
+
+<http://olaf_demo_results.org/longitudinal> a owl:ObjectProperty ;
+    rdfs:label "longitudinal"^^xsd:string ;
+    skos:altLabel "longitudinal"^^xsd:string .
+
+<http://olaf_demo_results.org/low> a owl:ObjectProperty ;
+    rdfs:label "low"^^xsd:string ;
+    skos:altLabel "low"^^xsd:string .
+
+<http://olaf_demo_results.org/lubricant> a owl:ObjectProperty ;
+    rdfs:label "lubricant"^^xsd:string ;
+    skos:altLabel "lubricant"^^xsd:string .
+
+<http://olaf_demo_results.org/macroporosity> a owl:ObjectProperty ;
+    rdfs:label "macroporosity"^^xsd:string ;
+    skos:altLabel "macroporosity"^^xsd:string .
+
+<http://olaf_demo_results.org/main> a owl:ObjectProperty ;
+    rdfs:label "main"^^xsd:string ;
+    skos:altLabel "main"^^xsd:string .
+
+<http://olaf_demo_results.org/marks> a owl:ObjectProperty ;
+    rdfs:label "marks"^^xsd:string ;
+    skos:altLabel "marks"^^xsd:string .
+
+<http://olaf_demo_results.org/measuring> a owl:ObjectProperty ;
+    rdfs:label "measuring"^^xsd:string ;
+    skos:altLabel "measuring"^^xsd:string .
+
+<http://olaf_demo_results.org/melt> a owl:ObjectProperty ;
+    rdfs:label "melt"^^xsd:string ;
+    skos:altLabel "melt"^^xsd:string .
+
+<http://olaf_demo_results.org/melting> a owl:ObjectProperty ;
+    rdfs:label "melting"^^xsd:string ;
+    skos:altLabel "melting"^^xsd:string .
+
+<http://olaf_demo_results.org/metal> a owl:ObjectProperty ;
+    rdfs:label "metal"^^xsd:string ;
+    skos:altLabel "metal"^^xsd:string .
+
+<http://olaf_demo_results.org/metallic> a owl:ObjectProperty ;
+    rdfs:label "metallic"^^xsd:string ;
+    skos:altLabel "metallic"^^xsd:string .
+
+<http://olaf_demo_results.org/metallurgical> a owl:ObjectProperty ;
+    rdfs:label "metallurgical"^^xsd:string ;
+    skos:altLabel "metallurgical"^^xsd:string .
+
+<http://olaf_demo_results.org/methods> a owl:ObjectProperty ;
+    rdfs:label "methods"^^xsd:string ;
+    skos:altLabel "methods"^^xsd:string .
+
+<http://olaf_demo_results.org/micro> a owl:ObjectProperty ;
+    rdfs:label "micro"^^xsd:string ;
+    skos:altLabel "micro"^^xsd:string .
+
+<http://olaf_demo_results.org/microporosities> a owl:ObjectProperty ;
+    rdfs:label "microporosities"^^xsd:string ;
+    skos:altLabel "microporosities"^^xsd:string .
+
+<http://olaf_demo_results.org/microporosity> a owl:ObjectProperty ;
+    rdfs:label "microporosity"^^xsd:string ;
+    skos:altLabel "microporosity"^^xsd:string .
+
+<http://olaf_demo_results.org/microshrinkage> a owl:ObjectProperty ;
+    rdfs:label "microshrinkage"^^xsd:string ;
+    skos:altLabel "microshrinkage"^^xsd:string .
+
+<http://olaf_demo_results.org/minimising> a owl:ObjectProperty ;
+    rdfs:label "minimising"^^xsd:string ;
+    skos:altLabel "minimising"^^xsd:string .
+
+<http://olaf_demo_results.org/minimize> a owl:ObjectProperty ;
+    rdfs:label "minimize"^^xsd:string ;
+    skos:altLabel "minimize"^^xsd:string .
+
+<http://olaf_demo_results.org/misrun> a owl:ObjectProperty ;
+    rdfs:label "misrun"^^xsd:string ;
+    skos:altLabel "misrun"^^xsd:string .
+
+<http://olaf_demo_results.org/mixture> a owl:ObjectProperty ;
+    rdfs:label "mixture"^^xsd:string ;
+    skos:altLabel "mixture"^^xsd:string .
+
+<http://olaf_demo_results.org/moisture> a owl:ObjectProperty ;
+    rdfs:label "moisture"^^xsd:string ;
+    skos:altLabel "moisture"^^xsd:string .
+
+<http://olaf_demo_results.org/mould> a owl:ObjectProperty ;
+    rdfs:label "mould"^^xsd:string ;
+    skos:altLabel "mould"^^xsd:string .
+
+<http://olaf_demo_results.org/moulding> a owl:ObjectProperty ;
+    rdfs:label "moulding"^^xsd:string ;
+    skos:altLabel "moulding"^^xsd:string .
+
+<http://olaf_demo_results.org/naked> a owl:ObjectProperty ;
+    rdfs:label "naked"^^xsd:string ;
+    skos:altLabel "naked"^^xsd:string .
+
+<http://olaf_demo_results.org/narrow> a owl:ObjectProperty ;
+    rdfs:label "narrow"^^xsd:string ;
+    skos:altLabel "narrow"^^xsd:string .
+
+<http://olaf_demo_results.org/nature> a owl:ObjectProperty ;
+    rdfs:label "nature"^^xsd:string ;
+    skos:altLabel "nature"^^xsd:string .
+
+<http://olaf_demo_results.org/nitrides> a owl:ObjectProperty ;
+    rdfs:label "nitrides"^^xsd:string ;
+    skos:altLabel "nitrides"^^xsd:string .
+
+<http://olaf_demo_results.org/nucleation> a owl:ObjectProperty ;
+    rdfs:label "nucleation"^^xsd:string ;
+    skos:altLabel "nucleation"^^xsd:string .
+
+<http://olaf_demo_results.org/occur> a owl:ObjectProperty ;
+    rdfs:label "occur"^^xsd:string ;
+    skos:altLabel "occur"^^xsd:string .
+
+<http://olaf_demo_results.org/occurs> a owl:ObjectProperty ;
+    rdfs:label "occurs"^^xsd:string ;
+    skos:altLabel "occurs"^^xsd:string .
+
+<http://olaf_demo_results.org/open> a owl:ObjectProperty ;
+    rdfs:label "open"^^xsd:string ;
+    skos:altLabel "open"^^xsd:string .
+
+<http://olaf_demo_results.org/overheating> a owl:ObjectProperty ;
+    rdfs:label "overheating"^^xsd:string ;
+    skos:altLabel "overheating"^^xsd:string .
+
+<http://olaf_demo_results.org/overly> a owl:ObjectProperty ;
+    rdfs:label "overly"^^xsd:string ;
+    skos:altLabel "overly"^^xsd:string .
+
+<http://olaf_demo_results.org/oxides> a owl:ObjectProperty ;
+    rdfs:label "oxides"^^xsd:string ;
+    skos:altLabel "oxides"^^xsd:string .
+
+<http://olaf_demo_results.org/oxygen> a owl:ObjectProperty ;
+    rdfs:label "oxygen"^^xsd:string ;
+    skos:altLabel "oxygen"^^xsd:string .
+
+<http://olaf_demo_results.org/particles> a owl:ObjectProperty ;
+    rdfs:label "particles"^^xsd:string ;
+    skos:altLabel "particles"^^xsd:string .
+
+<http://olaf_demo_results.org/penetrates> a owl:ObjectProperty ;
+    rdfs:label "penetrates"^^xsd:string ;
+    skos:altLabel "penetrates"^^xsd:string .
+
+<http://olaf_demo_results.org/penetration> a owl:ObjectProperty ;
+    rdfs:label "penetration"^^xsd:string ;
+    skos:altLabel "penetration"^^xsd:string .
+
+<http://olaf_demo_results.org/pipes> a owl:ObjectProperty ;
+    rdfs:label "pipes"^^xsd:string ;
+    skos:altLabel "pipes"^^xsd:string .
+
+<http://olaf_demo_results.org/point> a owl:ObjectProperty ;
+    rdfs:label "point"^^xsd:string ;
+    skos:altLabel "point"^^xsd:string .
+
+<http://olaf_demo_results.org/pools> a owl:ObjectProperty ;
+    rdfs:label "pools"^^xsd:string ;
+    skos:altLabel "pools"^^xsd:string .
+
+<http://olaf_demo_results.org/poor> a owl:ObjectProperty ;
+    rdfs:label "poor"^^xsd:string ;
+    skos:altLabel "poor"^^xsd:string .
+
+<http://olaf_demo_results.org/porosity> a owl:ObjectProperty ;
+    rdfs:label "porosity"^^xsd:string ;
+    skos:altLabel "porosity"^^xsd:string .
+
+<http://olaf_demo_results.org/possible> a owl:ObjectProperty ;
+    rdfs:label "possible"^^xsd:string ;
+    skos:altLabel "possible"^^xsd:string .
+
+<http://olaf_demo_results.org/pour> a owl:ObjectProperty ;
+    rdfs:label "pour"^^xsd:string ;
+    skos:altLabel "pour"^^xsd:string .
+
+<http://olaf_demo_results.org/poured> a owl:ObjectProperty ;
+    rdfs:label "poured"^^xsd:string ;
+    skos:altLabel "poured"^^xsd:string .
+
+<http://olaf_demo_results.org/pouring> a owl:ObjectProperty ;
+    rdfs:label "pouring"^^xsd:string ;
+    skos:altLabel "pouring"^^xsd:string .
+
+<http://olaf_demo_results.org/practices> a owl:ObjectProperty ;
+    rdfs:label "practices"^^xsd:string ;
+    skos:altLabel "practices"^^xsd:string .
+
+<http://olaf_demo_results.org/precipitation> a owl:ObjectProperty ;
+    rdfs:label "precipitation"^^xsd:string ;
+    skos:altLabel "precipitation"^^xsd:string .
+
+<http://olaf_demo_results.org/predict> a owl:ObjectProperty ;
+    rdfs:label "predict"^^xsd:string ;
+    skos:altLabel "predict"^^xsd:string .
+
+<http://olaf_demo_results.org/pressure> a owl:ObjectProperty ;
+    rdfs:label "pressure"^^xsd:string ;
+    skos:altLabel "pressure"^^xsd:string .
+
+<http://olaf_demo_results.org/primary> a owl:ObjectProperty ;
+    rdfs:label "primary"^^xsd:string ;
+    skos:altLabel "primary"^^xsd:string .
+
+<http://olaf_demo_results.org/process> a owl:ObjectProperty ;
+    rdfs:label "process"^^xsd:string ;
+    skos:altLabel "process"^^xsd:string .
+
+<http://olaf_demo_results.org/processes> a owl:ObjectProperty ;
+    rdfs:label "processes"^^xsd:string ;
+    skos:altLabel "processes"^^xsd:string .
+
+<http://olaf_demo_results.org/produced> a owl:ObjectProperty ;
+    rdfs:label "produced"^^xsd:string ;
+    skos:altLabel "produced"^^xsd:string .
+
+<http://olaf_demo_results.org/proper> a owl:ObjectProperty ;
+    rdfs:label "proper"^^xsd:string ;
+    skos:altLabel "proper"^^xsd:string .
+
+<http://olaf_demo_results.org/proud> a owl:ObjectProperty ;
+    rdfs:label "proud"^^xsd:string ;
+    skos:altLabel "proud"^^xsd:string .
+
+<http://olaf_demo_results.org/pulldowns> a owl:ObjectProperty ;
+    rdfs:label "pulldowns"^^xsd:string ;
+    skos:altLabel "pulldowns"^^xsd:string .
+
+<http://olaf_demo_results.org/qualities> a owl:ObjectProperty ;
+    rdfs:label "qualities"^^xsd:string ;
+    skos:altLabel "qualities"^^xsd:string .
+
+<http://olaf_demo_results.org/rammed> a owl:ObjectProperty ;
+    rdfs:label "rammed"^^xsd:string ;
+    skos:altLabel "rammed"^^xsd:string .
+
+<http://olaf_demo_results.org/range> a owl:ObjectProperty ;
+    rdfs:label "range"^^xsd:string ;
+    skos:altLabel "range"^^xsd:string .
+
+<http://olaf_demo_results.org/ranges> a owl:ObjectProperty ;
+    rdfs:label "ranges"^^xsd:string ;
+    skos:altLabel "ranges"^^xsd:string .
+
+<http://olaf_demo_results.org/rate> a owl:ObjectProperty ;
+    rdfs:label "rate"^^xsd:string ;
+    skos:altLabel "rate"^^xsd:string .
+
+<http://olaf_demo_results.org/rattails> a owl:ObjectProperty ;
+    rdfs:label "rattails"^^xsd:string ;
+    skos:altLabel "rattails"^^xsd:string .
+
+<http://olaf_demo_results.org/reaction> a owl:ObjectProperty ;
+    rdfs:label "reaction"^^xsd:string ;
+    skos:altLabel "reaction"^^xsd:string .
+
+<http://olaf_demo_results.org/reason> a owl:ObjectProperty ;
+    rdfs:label "reason"^^xsd:string ;
+    skos:altLabel "reason"^^xsd:string .
+
+<http://olaf_demo_results.org/reasons> a owl:ObjectProperty ;
+    rdfs:label "reasons"^^xsd:string ;
+    skos:altLabel "reasons"^^xsd:string .
+
+<http://olaf_demo_results.org/reduce> a owl:ObjectProperty ;
+    rdfs:label "reduce"^^xsd:string ;
+    skos:altLabel "reduce"^^xsd:string .
+
+<http://olaf_demo_results.org/reducing> a owl:ObjectProperty ;
+    rdfs:label "reducing"^^xsd:string ;
+    skos:altLabel "reducing"^^xsd:string .
+
+<http://olaf_demo_results.org/region> a owl:ObjectProperty ;
+    rdfs:label "region"^^xsd:string ;
+    skos:altLabel "region"^^xsd:string .
+
+<http://olaf_demo_results.org/repaired> a owl:ObjectProperty ;
+    rdfs:label "repaired"^^xsd:string ;
+    skos:altLabel "repaired"^^xsd:string .
+
+<http://olaf_demo_results.org/require> a owl:ObjectProperty ;
+    rdfs:label "require"^^xsd:string ;
+    skos:altLabel "require"^^xsd:string .
+
+<http://olaf_demo_results.org/required> a owl:ObjectProperty ;
+    rdfs:label "required"^^xsd:string ;
+    skos:altLabel "required"^^xsd:string .
+
+<http://olaf_demo_results.org/residual> a owl:ObjectProperty ;
+    rdfs:label "residual"^^xsd:string ;
+    skos:altLabel "residual"^^xsd:string .
+
+<http://olaf_demo_results.org/result> a owl:ObjectProperty ;
+    rdfs:label "result"^^xsd:string ;
+    skos:altLabel "result"^^xsd:string .
+
+<http://olaf_demo_results.org/reveal> a owl:ObjectProperty ;
+    rdfs:label "reveal"^^xsd:string ;
+    skos:altLabel "reveal"^^xsd:string .
+
+<http://olaf_demo_results.org/risered> a owl:ObjectProperty ;
+    rdfs:label "risered"^^xsd:string ;
+    skos:altLabel "risered"^^xsd:string .
+
+<http://olaf_demo_results.org/rough> a owl:ObjectProperty ;
+    rdfs:label "rough"^^xsd:string ;
+    skos:altLabel "rough"^^xsd:string .
+
+<http://olaf_demo_results.org/run> a owl:ObjectProperty ;
+    rdfs:label "run"^^xsd:string ;
+    skos:altLabel "run"^^xsd:string .
+
+<http://olaf_demo_results.org/sand> a owl:ObjectProperty ;
+    rdfs:label "sand"^^xsd:string ;
+    skos:altLabel "sand"^^xsd:string .
+
+<http://olaf_demo_results.org/sands> a owl:ObjectProperty ;
+    rdfs:label "sands"^^xsd:string ;
+    skos:altLabel "sands"^^xsd:string .
+
+<http://olaf_demo_results.org/scabs> a owl:ObjectProperty ;
+    rdfs:label "scabs"^^xsd:string ;
+    skos:altLabel "scabs"^^xsd:string .
+
+<http://olaf_demo_results.org/scrap> a owl:ObjectProperty ;
+    rdfs:label "scrap"^^xsd:string ;
+    skos:altLabel "scrap"^^xsd:string .
+
+<http://olaf_demo_results.org/second> a owl:ObjectProperty ;
+    rdfs:label "second"^^xsd:string ;
+    skos:altLabel "second"^^xsd:string .
+
+<http://olaf_demo_results.org/secondary> a owl:ObjectProperty ;
+    rdfs:label "secondary"^^xsd:string ;
+    skos:altLabel "secondary"^^xsd:string .
+
+<http://olaf_demo_results.org/seen> a owl:ObjectProperty ;
+    rdfs:label "seen"^^xsd:string ;
+    skos:altLabel "seen"^^xsd:string .
+
+<http://olaf_demo_results.org/sharp> a owl:ObjectProperty ;
+    rdfs:label "sharp"^^xsd:string ;
+    skos:altLabel "sharp"^^xsd:string .
+
+<http://olaf_demo_results.org/shear> a owl:ObjectProperty ;
+    rdfs:label "shear"^^xsd:string ;
+    skos:altLabel "shear"^^xsd:string .
+
+<http://olaf_demo_results.org/shrinkage> a owl:ObjectProperty ;
+    rdfs:label "shrinkage"^^xsd:string ;
+    skos:altLabel "shrinkage"^^xsd:string .
+
+<http://olaf_demo_results.org/shuts> a owl:ObjectProperty ;
+    rdfs:label "shuts"^^xsd:string ;
+    skos:altLabel "shuts"^^xsd:string .
+
+<http://olaf_demo_results.org/silica> a owl:ObjectProperty ;
+    rdfs:label "silica"^^xsd:string ;
+    skos:altLabel "silica"^^xsd:string .
+
+<http://olaf_demo_results.org/similar> a owl:ObjectProperty ;
+    rdfs:label "similar"^^xsd:string ;
+    skos:altLabel "similar"^^xsd:string .
+
+<http://olaf_demo_results.org/sits> a owl:ObjectProperty ;
+    rdfs:label "sits"^^xsd:string ;
+    skos:altLabel "sits"^^xsd:string .
+
+<http://olaf_demo_results.org/slowly> a owl:ObjectProperty ;
+    rdfs:label "slowly"^^xsd:string ;
+    skos:altLabel "slowly"^^xsd:string .
+
+<http://olaf_demo_results.org/solidification> a owl:ObjectProperty ;
+    rdfs:label "solidification"^^xsd:string ;
+    skos:altLabel "solidification"^^xsd:string .
+
+<http://olaf_demo_results.org/solidified> a owl:ObjectProperty ;
+    rdfs:label "solidified"^^xsd:string ;
+    skos:altLabel "solidified"^^xsd:string .
+
+<http://olaf_demo_results.org/solubility> a owl:ObjectProperty ;
+    rdfs:label "solubility"^^xsd:string ;
+    skos:altLabel "solubility"^^xsd:string .
+
+<http://olaf_demo_results.org/solutions> a owl:ObjectProperty ;
+    rdfs:label "solutions"^^xsd:string ;
+    skos:altLabel "solutions"^^xsd:string .
+
+<http://olaf_demo_results.org/source> a owl:ObjectProperty ;
+    rdfs:label "source"^^xsd:string ;
+    skos:altLabel "source"^^xsd:string .
+
+<http://olaf_demo_results.org/specialized> a owl:ObjectProperty ;
+    rdfs:label "specialized"^^xsd:string ;
+    skos:altLabel "specialized"^^xsd:string .
+
+<http://olaf_demo_results.org/specification> a owl:ObjectProperty ;
+    rdfs:label "specification"^^xsd:string ;
+    skos:altLabel "specification"^^xsd:string .
+
+<http://olaf_demo_results.org/spot> a owl:ObjectProperty ;
+    rdfs:label "spot"^^xsd:string ;
+    skos:altLabel "spot"^^xsd:string .
+
+<http://olaf_demo_results.org/spots> a owl:ObjectProperty ;
+    rdfs:label "spots"^^xsd:string ;
+    skos:altLabel "spots"^^xsd:string .
+
+<http://olaf_demo_results.org/steel> a owl:ObjectProperty ;
+    rdfs:label "steel"^^xsd:string ;
+    skos:altLabel "steel"^^xsd:string .
+
+<http://olaf_demo_results.org/strain> a owl:ObjectProperty ;
+    rdfs:label "strain"^^xsd:string ;
+    skos:altLabel "strain"^^xsd:string .
+
+<http://olaf_demo_results.org/strength> a owl:ObjectProperty ;
+    rdfs:label "strength"^^xsd:string ;
+    skos:altLabel "strength"^^xsd:string .
+
+<http://olaf_demo_results.org/stresses> a owl:ObjectProperty ;
+    rdfs:label "stresses"^^xsd:string ;
+    skos:altLabel "stresses"^^xsd:string .
+
+<http://olaf_demo_results.org/structure> a owl:ObjectProperty ;
+    rdfs:label "structure"^^xsd:string ;
+    skos:altLabel "structure"^^xsd:string .
+
+<http://olaf_demo_results.org/sulfides> a owl:ObjectProperty ;
+    rdfs:label "sulfides"^^xsd:string ;
+    skos:altLabel "sulfides"^^xsd:string .
+
+<http://olaf_demo_results.org/surfaces> a owl:ObjectProperty ;
+    rdfs:label "surfaces"^^xsd:string ;
+    skos:altLabel "surfaces"^^xsd:string .
+
+<http://olaf_demo_results.org/surrounding> a owl:ObjectProperty ;
+    rdfs:label "surrounding"^^xsd:string ;
+    skos:altLabel "surrounding"^^xsd:string .
+
+<http://olaf_demo_results.org/swell> a owl:ObjectProperty ;
+    rdfs:label "swell"^^xsd:string ;
+    skos:altLabel "swell"^^xsd:string .
+
+<http://olaf_demo_results.org/swirl> a owl:ObjectProperty ;
+    rdfs:label "swirl"^^xsd:string ;
+    skos:altLabel "swirl"^^xsd:string .
+
+<http://olaf_demo_results.org/taking> a owl:ObjectProperty ;
+    rdfs:label "taking"^^xsd:string ;
+    skos:altLabel "taking"^^xsd:string .
+
+<http://olaf_demo_results.org/tears> a owl:ObjectProperty ;
+    rdfs:label "tears"^^xsd:string ;
+    skos:altLabel "tears"^^xsd:string .
+
+<http://olaf_demo_results.org/temperature> a owl:ObjectProperty ;
+    rdfs:label "temperature"^^xsd:string ;
+    skos:altLabel "temperature"^^xsd:string .
+
+<http://olaf_demo_results.org/terminology> a owl:ObjectProperty ;
+    rdfs:label "terminology"^^xsd:string ;
+    skos:altLabel "terminology"^^xsd:string .
+
+<http://olaf_demo_results.org/thin> a owl:ObjectProperty ;
+    rdfs:label "thin"^^xsd:string ;
+    skos:altLabel "thin"^^xsd:string .
+
+<http://olaf_demo_results.org/tolerated> a owl:ObjectProperty ;
+    rdfs:label "tolerated"^^xsd:string ;
+    skos:altLabel "tolerated"^^xsd:string .
+
+<http://olaf_demo_results.org/turbulence> a owl:ObjectProperty ;
+    rdfs:label "turbulence"^^xsd:string ;
+    skos:altLabel "turbulence"^^xsd:string .
+
+<http://olaf_demo_results.org/type> a owl:ObjectProperty ;
+    rdfs:label "type"^^xsd:string ;
+    skos:altLabel "type"^^xsd:string .
+
+<http://olaf_demo_results.org/types> a owl:ObjectProperty ;
+    rdfs:label "types"^^xsd:string ;
+    skos:altLabel "types"^^xsd:string .
+
+<http://olaf_demo_results.org/underneath> a owl:ObjectProperty ;
+    rdfs:label "underneath"^^xsd:string ;
+    skos:altLabel "underneath"^^xsd:string .
+
+<http://olaf_demo_results.org/undesired> a owl:ObjectProperty ;
+    rdfs:label "undesired"^^xsd:string ;
+    skos:altLabel "undesired"^^xsd:string .
+
+<http://olaf_demo_results.org/uneven> a owl:ObjectProperty ;
+    rdfs:label "uneven"^^xsd:string ;
+    skos:altLabel "uneven"^^xsd:string .
+
+<http://olaf_demo_results.org/unfilled> a owl:ObjectProperty ;
+    rdfs:label "unfilled"^^xsd:string ;
+    skos:altLabel "unfilled"^^xsd:string .
+
+<http://olaf_demo_results.org/value> a owl:ObjectProperty ;
+    rdfs:label "value"^^xsd:string ;
+    skos:altLabel "value"^^xsd:string .
+
+<http://olaf_demo_results.org/veining> a owl:ObjectProperty ;
+    rdfs:label "veining"^^xsd:string ;
+    skos:altLabel "veining"^^xsd:string .
+
+<http://olaf_demo_results.org/velocity> a owl:ObjectProperty ;
+    rdfs:label "velocity"^^xsd:string ;
+    skos:altLabel "velocity"^^xsd:string .
+
+<http://olaf_demo_results.org/vented> a owl:ObjectProperty ;
+    rdfs:label "vented"^^xsd:string ;
+    skos:altLabel "vented"^^xsd:string .
+
+<http://olaf_demo_results.org/venting> a owl:ObjectProperty ;
+    rdfs:label "venting"^^xsd:string ;
+    skos:altLabel "venting"^^xsd:string .
+
+<http://olaf_demo_results.org/visual> a owl:ObjectProperty ;
+    rdfs:label "visual"^^xsd:string ;
+    skos:altLabel "visual"^^xsd:string .
+
+<http://olaf_demo_results.org/volume> a owl:ObjectProperty ;
+    rdfs:label "volume"^^xsd:string ;
+    skos:altLabel "volume"^^xsd:string .
+
+<http://olaf_demo_results.org/wall> a owl:ObjectProperty ;
+    rdfs:label "wall"^^xsd:string ;
+    skos:altLabel "wall"^^xsd:string .
+
+<http://olaf_demo_results.org/wash> a owl:ObjectProperty ;
+    rdfs:label "wash"^^xsd:string ;
+    skos:altLabel "wash"^^xsd:string .
+
+<http://olaf_demo_results.org/way> a owl:ObjectProperty ;
+    rdfs:label "way"^^xsd:string ;
+    skos:altLabel "way"^^xsd:string .
+
+<http://olaf_demo_results.org/weak> a owl:ObjectProperty ;
+    rdfs:label "weak"^^xsd:string ;
+    skos:altLabel "weak"^^xsd:string .
+
+<http://olaf_demo_results.org/wide> a owl:ObjectProperty ;
+    rdfs:label "wide"^^xsd:string ;
+    skos:altLabel "wide"^^xsd:string .
+
+<http://olaf_demo_results.org/workpiece> a owl:ObjectProperty ;
+    rdfs:label "workpiece"^^xsd:string ;
+    skos:altLabel "workpiece"^^xsd:string .
+
+<http://olaf_demo_results.org/wrong> a owl:ObjectProperty ;
+    rdfs:label "wrong"^^xsd:string ;
+    skos:altLabel "wrong"^^xsd:string .
+
