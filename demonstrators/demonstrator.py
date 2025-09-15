@@ -9,11 +9,11 @@ from olaf.commons.errors import MissingEnvironmentVariable
 from olaf.commons.llm_tools import LLMGenerator, DeepSeekGenerator
 from olaf.commons.logging_config import logger
 from olaf.commons.prompts import (
-    deepseek_prompt_concept_term_extraction,
-    deepseek_prompt_concept_extraction,
-    deepseek_prompt_relation_extraction,
-    deepseek_prompt_relation_term_extraction,
-    deepseek_prompt_term_enrichment,
+    llm_prompt_concept_term_extraction,
+    llm_prompt_concept_extraction,
+    llm_prompt_relation_extraction,
+    llm_prompt_relation_term_extraction,
+    llm_prompt_term_enrichment,
 )
 from olaf.pipeline.pipeline_component.concept_relation_extraction import(
     LLMBasedConceptExtraction,
@@ -21,7 +21,6 @@ from olaf.pipeline.pipeline_component.concept_relation_extraction import(
 )
 from olaf.pipeline.pipeline_component.candidate_term_enrichment import LLMBasedTermEnrichment
 
-from olaf.commons.prompts import openai_prompt_term_enrichment, openai_prompt_concept_term_extraction
 
 
 from olaf.data_container import CandidateTerm, Concept, Relation
@@ -69,25 +68,25 @@ def add_pipeline_components(pipeline: Pipeline) -> Pipeline:
     # deepseek_generator = CustomLLMGenerator()
     deepseek_generator = DeepSeekGenerator()
     llm_cterm_extraction = LLMTermExtraction(
-        prompt_template=deepseek_prompt_concept_term_extraction,
+        prompt_template=llm_prompt_concept_term_extraction,
         llm_generator=deepseek_generator
     )
     pipeline.add_pipeline_component(llm_cterm_extraction)
 
     llm_cterm_enrichment = LLMBasedTermEnrichment(
-        prompt_template=deepseek_prompt_term_enrichment,
+        prompt_template=llm_prompt_term_enrichment,
         llm_generator=deepseek_generator
     )
     pipeline.add_pipeline_component(llm_cterm_enrichment)
 
   
     llm_concept_extraction = LLMBasedConceptExtraction(
-        prompt_template=deepseek_prompt_concept_extraction, 
+        prompt_template=llm_prompt_concept_extraction, 
         llm_generator=deepseek_generator)
     pipeline.add_pipeline_component(llm_concept_extraction)
 
     llm_term_extraction = LLMTermExtraction(
-        prompt_template=deepseek_prompt_relation_term_extraction,
+        prompt_template=llm_prompt_relation_term_extraction,
         llm_generator=deepseek_generator
     )
     pipeline.add_pipeline_component(llm_term_extraction)
@@ -95,7 +94,7 @@ def add_pipeline_components(pipeline: Pipeline) -> Pipeline:
   
 
     llm_relation_extraction = LLMBasedRelationExtraction(
-        prompt_template=deepseek_prompt_relation_extraction, 
+        prompt_template=llm_prompt_relation_extraction, 
         llm_generator=deepseek_generator)
     pipeline.add_pipeline_component(llm_relation_extraction)
 
@@ -135,11 +134,11 @@ def my_main():
         ),
         pipeline_components=[
             LLMTermExtraction(
-                prompt_template=deepseek_prompt_concept_term_extraction,
+                prompt_template=llm_prompt_concept_term_extraction,
                 llm_generator=DeepSeekGenerator()
             ),
             LLMBasedConceptExtraction(
-                deepseek_prompt_concept_extraction, DeepSeekGenerator()
+                llm_prompt_concept_extraction, DeepSeekGenerator()
             )
         ]
     )
@@ -159,10 +158,10 @@ def test_generator():
         pipeline_components=[
             LLMTermExtraction
             (
-                deepseek_prompt_relation_term_extraction, DeepSeekGenerator()
+                llm_prompt_relation_term_extraction, DeepSeekGenerator()
             ),
             LLMBasedRelationExtraction(
-                deepseek_prompt_relation_extraction, DeepSeekGenerator()
+                llm_prompt_relation_extraction, DeepSeekGenerator()
             )
         ]
     )
